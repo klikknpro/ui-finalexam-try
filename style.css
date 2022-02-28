@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -47,4 +48,44 @@ select {
 }
 
 /* CSS reset */
+/*
+#ffeedf
+#145434
+font-family: 'Space Grotesk', sans-serif;
+.material-icons
+*/
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  background-color: #ffeedf;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+
+.header h1 {
+  color: #145434;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.header hr {
+  width: 100%;
+  height: 1px;
+  background-color: #145434;
+}
+
+.header .menu-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  color: #145434;
+}
 /*# sourceMappingURL=style.css.map */
