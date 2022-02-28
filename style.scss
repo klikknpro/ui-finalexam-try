@@ -41,10 +41,8 @@ input,
 textarea,
 select {
   appearance: none !important;
-  -webkit-appearance: none !important;
-  /* safari, opera, chrome miatt */
+  -webkit-appearance: none !important; /* safari, opera, chrome miatt */
   border-radius: 0;
 }
 
 /* CSS reset */
-/*# sourceMappingURL=style.css.map */
