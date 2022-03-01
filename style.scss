@@ -128,11 +128,21 @@ body {
 }
 
 .beer-card {
+  width: 400px;
+  height: 260px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-color: #145434;
 
   color: #ffeedf;
 
   .number {
+    position: relative;
+    transform: translate(-50%, -50%);
+
     width: 40px;
     height: 40px;
 
@@ -148,27 +158,34 @@ body {
   }
 
   .title {
+    padding: 0 0 20px 40px;
     font-size: 36px;
     font-weight: 400;
   }
 
   hr {
-    width: 100%;
+    align-self: center;
+    width: 80%;
     height: 1px;
     background-color: #ffeedf;
   }
 
   .sub {
+    margin: 0 0 -10px 40px;
     font-size: 18px;
     font-weight: 400;
   }
 
   .text {
+    padding-left: 40px;
     font-size: 18px;
     font-weight: 600;
   }
 
   button {
+    position: relative;
+    transform: translate(105%, 25%);
+
     width: 200px;
     height: 50px;
 
